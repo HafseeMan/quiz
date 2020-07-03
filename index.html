@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/styles_sidebar.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>My JavaScript App</title>
+
+  <style>
+    #exam-area, #result-area{
+        display: none;
+    }
+   </style>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">QUIZ</a>
+    </div>
+  </nav>
+  <header id= "start-area" class="text-center">
+    <button class="btn btn-danger" style="width: 50%;">START QUIZ</button>
+   </header> 
+    
+    <div class="container">
+        <div class="instructions">
+            <P class="p-2 text-center"><u>INSTRUCTIONS:</u><br> You have 5 questions to answer. To answer, select answer.<br>BEST OF LUCK!</P>
+        </div>
+        <div id="exam-area" class="card card-body text-center p-2">
+        
+            <div id="question-container">
+            <!--
+                <h4>QUESTION 1</h4>
+                <p class="question-text text-danger">What is the color of an apple?</p>
+                <ol class="text-left">
+                    <li><button class="1 option btn btn-block btn-success">yellow</button></li>
+                    <li><button class="2 option btn btn-block btn-success">pink</button></li>
+                    <li><button class="3 option btn btn-block btn-success">red</button></li>
+                </ol>
+            -->    
+            </div>
+            <button id="next-btn" class="btn btn-dark" style="width: 25%;">NEXT</button>
+        </div>
+        <div id="result-area" class="card card-body text-center bg-secondary text-light p-5">
+            <h3>QUIZ OVER!</h3>
+            <h4>SCORE:<span id="score"></span>/5</h4>
+        </div>
+
+        
+  </div>
+ 
+  <footer class="mt-5 p-3 text-center bg-light">
+    HafseeMan @copy;
+  </footer>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

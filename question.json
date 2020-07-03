@@ -1,0 +1,43 @@
+[
+    {
+        "number" : 1, 
+        "text" : "What is the color of a banana?", 
+        "option1" : "red",
+        "option2" : "blue",
+        "option3" : "yellow", 
+        "answer" : 3
+    },
+    {
+        "number" : 2, 
+        "text" : "What is the color of an apple?", 
+        "option1" : "red",
+        "option2" : "blue",
+        "option3" : "yellow", 
+        "answer" : 1
+    },
+    {
+        "number" : 3, 
+        "text" : "What is the color of beach sand?", 
+        "option1" : "brown",
+        "option2" : "blue",
+        "option3" : "white", 
+        "answer" : 1
+    },
+    {
+        "number" : 4, 
+        "text" : "What is the color of a dead leaf?", 
+        "option1" : "green",
+        "option2" : "brown",
+        "option3" : "yellow", 
+        "answer" : 2
+    },{
+        "number" : 5, 
+        "text" : "What is the color the Red sea?", 
+        "option1" : "red",
+        "option2" : "blue",
+        "option3" : "yellow", 
+        "answer" : 2
+    }
+]
+
+
